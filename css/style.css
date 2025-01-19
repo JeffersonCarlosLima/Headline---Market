@@ -1,0 +1,26 @@
+body{
+    background-color: #000;
+  }
+  .headline {
+    background-color: #000;
+    color: #fff;
+    padding: 32px 0;
+  }
+  .headline h1, .headline p {
+    color: #fff;
+  }
+  .logo{
+    margin-bottom: 48px;
+  }
+  .video{
+    width: 640px;
+    height: 360px;
+  }
+  
+  @media (max-width: 600px) {
+    .video{
+        width: 426px;
+        height: 240px;
+      }
+  }
+  
